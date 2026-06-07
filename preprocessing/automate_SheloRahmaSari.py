@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 import os
 
-RAW_DATA = "../namadataset_raw/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+RAW_DATA = "../dataset_raw/WA_Fn-UseC_-Telco-Customer-Churn.csv"
 OUTPUT_DIR = "dataset_preprocessing"
 OUTPUT_FILE = f"{OUTPUT_DIR}/telco_clean.csv"
 
